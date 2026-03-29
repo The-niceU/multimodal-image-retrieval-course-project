@@ -1,0 +1,31 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+
+# Logs / builds
+log/
+build/
+
+# Label tool (do not upload)
+label_ui.py
+label_ui.spec
+label_ui.exe
+
+# Data / weights (do not push)
+data/
+my_dataset/
+CLIP-ViT-B-32-laion2B-s34B-b79K/
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
